@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 * {
 padding: 0;
 margin: 0;
@@ -13,9 +15,10 @@ body{
 /* NAVIGATION */
 
 li a {
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Shadows Into Light', cursive;;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight:600;
 
 
@@ -32,6 +35,12 @@ header {
 #logo {
   cursor:pointer;
   margin-right: auto;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 65px;
+  font-weight: bold;
+  color: #00B4FF;
+  text-shadow:1px 1px 10px #009bde;
+  
 }
 
 #nav-flex li {
@@ -45,7 +54,7 @@ header {
   color: #E9EDDE;
   transition: all 0.1s ease .1s;
   border: 2px solid #E9EDDE;
-  border-radius: 5px;
+  border-radius: 6px;
   padding: 5px;
 
 }
@@ -53,8 +62,8 @@ header {
 #nav-flex li a:hover {
   color: #00B4FF;
   border: 2px solid #00B4FF;
-  box-shadow: 3px 2px 5px #00a5eb;
-  text-shadow: 0 1px 2px #00a5eb ;
+  box-shadow: 3px 2px 5px #009bde;
+  text-shadow: 1px 1px 8px #009bde ;
   
 }
 
