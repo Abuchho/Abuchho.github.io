@@ -12,7 +12,7 @@ body{
   background-color: rgb(72, 71, 71);
 }
 
-/* NAVIGATION */
+/* -------- NAVIGATION --------- */
 
 li a {
   /* font-family: 'Nunito', sans-serif; */
@@ -82,7 +82,7 @@ header {
 #home {
   display: flex;
   margin: 0px 65px;
-  height: 850px;
+  height: 860px;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -103,10 +103,46 @@ header {
   font-size: 30px;
   margin: 0px 5px 100px 5px;
   text-align:center ;
-  font-family: 'Nunito', sans-serif;;
+  font-family: 'Nunito', sans-serif;
 }
 
-/* Projects */
+
+/* ---------- About Me ---------- */
+
+#about{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: flex-start;
+
+  background-color: rgb(2, 3, 3);
+  margin: 0px;
+  height: 950px;
+}
+
+#about h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  margin: 0px auto 0px 30px;
+  color: #00B4FF;
+  text-shadow:1px 1px 10px #009bde;
+}
+
+#about p{
+  color: #E9EDDE;
+  margin: 300px 60px;
+}
+#about-img {
+
+}
+#about-img img{
+  width: 18rem;
+  margin-top: 180px;
+  border-radius: 20px;
+}
+
+
+/* --------- Projects --------- */
 
 #projects {
   display: flex;
@@ -123,7 +159,7 @@ header {
   /* color: #E9EDDE; */
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
-  margin: 80px auto 0px 30px;
+  margin: 0px auto 0px 30px;
   color: #00B4FF;
   text-shadow:1px 1px 10px #009bde;
 }
@@ -131,10 +167,11 @@ header {
 .project-div{
   background-color: #E9EDDE;
   width: 60%;
-  height: 20%;
+  height: 25%;
   margin: 20px;
   border-radius: 6px;
   box-shadow: 3px 3px 5px #aeaeae;
+  
   display: grid; 
   grid-template-columns: 3fr 2fr 1fr; 
   grid-template-rows: 1fr; 
@@ -142,14 +179,22 @@ header {
   grid-row-gap: 0px; 
 }
 
-.project-div li {
+.proj-image {
+  place-self: center;
+}
+
+.proj-description {
+  place-self: center flex-start;
+}
+
+.proj-list {
+  place-self: center;
   list-style: none;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 
-
-/* Contact */
+/*  ----- Contact -------- */
 
 #contact {
   display: flex;
@@ -163,7 +208,7 @@ header {
 #contact h2 {
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
-  margin: 80px auto 0px 30px;
+  margin: 0px auto 0px 30px;
   color: #00B4FF;
   text-shadow:1px 1px 10px #009bde;
 }
