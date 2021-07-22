@@ -133,13 +133,14 @@ header {
 #about p{
   color: #E9EDDE;
   margin: 300px 60px;
+  font-family: 'Nunito', sans-serif;
 }
 #about-img {
 
 }
 #about-img img{
   width: 18rem;
-  margin-top: 180px;
+  margin-top: 195px;
   border-radius: 20px;
 }
 
@@ -178,16 +179,22 @@ header {
   grid-template-rows: 1fr; 
   grid-column-gap: 2px;
   grid-row-gap: 0px; 
+
+  -moz-box-shadow:    2px 3px 3px 2px #ccc;
+  -webkit-box-shadow: 2px 3px 3px 2px #ccc;
+  box-shadow:         2px 3px 3px 2px #ccc;
 }
 
 .proj-image {
   place-self: center;
-  margin: 0 0 0 5%;
+  margin: 7% 5% 5% 5%;
+  height: 180px;
+  width: 300px;
 }
 
 .proj-description {
   place-self: center flex-start;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 15%;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -216,10 +223,31 @@ header {
   color: #00B4FF;
   text-shadow:1px 1px 10px #009bde;
 }
+
+#contact p {
+  color: #E9EDDE;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  margin: 5% 0 0 30% ;
+  
+
+}
+
 #contact i {
   font-size: 60px;
   color: #E9EDDE;
+  
+}
 
+#contactFlex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10% 0 0 0;
+}
+
+#contact i:hover{
+  color: #00B4FF;
+  text-shadow: 1px 1px 6px #009bde ;
 }
 
 /* ----------- Footer ----------- */
@@ -233,4 +261,5 @@ header {
    margin: 10px;
    color: #464646;
    font-weight: bold;
+   font-family: 'Nunito', sans-serif;
  }
