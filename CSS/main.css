@@ -9,7 +9,10 @@ box-sizing: border-box;
 }
 
 body{
-  background-color: rgb(72, 71, 71);
+  background-color: rgb(2, 3, 3);
+}
+html{
+  scroll-behavior: smooth;
 }
 
 /* -------- NAVIGATION --------- */
@@ -30,14 +33,13 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 20px 10%;
-  background-color: rgb(1, 11, 28);
+  background-color: rgba(12, 12, 12, 0.673);
   padding: 0px 10vw ;
+  position:fixed;
+  width: 100%;
   
 }
 
-/* nav {
-  position:fixed;
-} */
 
 #logo {
   cursor:pointer;
@@ -123,7 +125,7 @@ header {
 #about h2 {
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
-  margin: 0px auto 0px 30px;
+  margin: 115px auto 0px 30px;
   color: #00B4FF;
   text-shadow:1px 1px 10px #009bde;
 }
@@ -159,7 +161,7 @@ header {
   /* color: #E9EDDE; */
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
-  margin: 0px auto 0px 30px;
+  margin: 115px auto 0px 30px;
   color: #00B4FF;
   text-shadow:1px 1px 10px #009bde;
 }
@@ -170,8 +172,7 @@ header {
   height: 25%;
   margin: 20px;
   border-radius: 6px;
-  box-shadow: 3px 3px 5px #aeaeae;
-  
+  /* box-shadow: 3px 5px 5px #009bde; */
   display: grid; 
   grid-template-columns: 3fr 2fr 1fr; 
   grid-template-rows: 1fr; 
@@ -181,10 +182,13 @@ header {
 
 .proj-image {
   place-self: center;
+  margin: 0 0 0 5%;
 }
 
 .proj-description {
   place-self: center flex-start;
+  margin: 0 0 0 5%;
+  font-family: 'Nunito', sans-serif;
 }
 
 .proj-list {
@@ -208,7 +212,25 @@ header {
 #contact h2 {
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
-  margin: 0px auto 0px 30px;
+  margin: 115px auto 0px 30px;
   color: #00B4FF;
   text-shadow:1px 1px 10px #009bde;
 }
+#contact i {
+  font-size: 60px;
+  color: #E9EDDE;
+
+}
+
+/* ----------- Footer ----------- */
+ footer{
+   height: 50px;
+   text-align: center;
+   
+ }
+
+ footer p {
+   margin: 10px;
+   color: #464646;
+   font-weight: bold;
+ }
