@@ -90,6 +90,7 @@ header {
   align-items: center;
   background-image: url('/Images/BlueNightSky.jpg');
   background-size: cover;
+  width: 100%;
   margin: 0px 0px 0px 0px;
 }
 
@@ -263,3 +264,7 @@ header {
    font-weight: bold;
    font-family: 'Nunito', sans-serif;
  }
+
+.code{
+  color: #00B4FF;
+}
