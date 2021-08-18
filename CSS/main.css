@@ -268,3 +268,142 @@ header {
 .code{
   color: #00B4FF;
 }
+
+
+
+
+
+@media only screen and (max-width: 775px) {
+
+  nav {
+    display: none;
+  }
+
+  #home {
+    display: flex;
+    margin: 0px 65px;
+    height: 860px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('/Images/BlueNightSky.jpg');
+    background-size:cover;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #home h1 {
+    color: #E9EDDE;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    margin-top: 50px;
+    text-align:center ;
+
+  }
+  
+  #home p {
+    color: #E9EDDE;
+    font-size: 1.75rem;
+    margin: 0px 5px 100px 0px;
+    text-align:center ;
+    font-family: 'Nunito', sans-serif;
+  }
+
+
+
+  #about{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+  
+    background-color: rgb(2, 3, 3);
+    margin: 0px;
+    height: 950px;
+  }
+
+  #about-img img{
+    width: 18rem;
+    margin: 2rem;
+    border-radius: 20px;
+    ;
+  }
+  #about p{
+    color: #E9EDDE;
+    margin: 2rem 2rem 2rem 2rem;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 3, 3);
+    margin: 0px;
+    height: 950px;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  #projects h2 {
+    /* color: #E9EDDE; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    margin: 18rem auto 0px 30px;
+    color: #00B4FF;
+    text-shadow:1px 1px 10px #009bde;
+  }
+  .project-div{
+    background-color: #E9EDDE;
+    width: 60%;
+    height: 25%;
+    margin: 20px;
+    border-radius: 6px;
+    /* box-shadow: 3px 5px 5px #009bde; */
+    display: grid; 
+    grid-template-columns: 3fr 2fr 1fr; 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 2px;
+    grid-row-gap: 0px; 
+  
+    -moz-box-shadow:    2px 3px 3px 2px #ccc;
+    -webkit-box-shadow: 2px 3px 3px 2px #ccc;
+    box-shadow:         2px 3px 3px 2px #ccc;
+  }
+  
+  .proj-image {
+    display: none;
+    place-self: center;
+    margin: 7% 5% 5% 5%;
+    height: 180px;
+    width: 300px;
+  }
+  
+  .proj-description {
+    place-self: center flex-start;
+    margin: 0 0 0 15%;
+    font-family: 'Nunito', sans-serif;
+    font-size: .8em;
+  }
+  
+  .proj-list {
+    place-self: center;
+    list-style: none;
+    font-size: 2rem;
+  }
+
+  #contact p {
+    color: #E9EDDE;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+    margin: 5% 0 0 30% ;
+    
+  
+  }
+  
+  #contact i {
+    font-size: 3rem;
+    color: #E9EDDE;
+    
+  }
+
+}
