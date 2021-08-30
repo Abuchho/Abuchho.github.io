@@ -10,7 +10,7 @@ body {
 #jumbotron {
     background-image: url("/Images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
     background-size: cover;
-    height: 100vmin;
+    height:100vmin;
 }
 
 #logo {
