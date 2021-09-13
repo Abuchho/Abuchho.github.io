@@ -7,6 +7,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 #jumbotron {
     background-image: url("/Images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
     background-size: cover;
